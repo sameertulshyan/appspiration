@@ -1,0 +1,9 @@
+export const GET_ERRORS = 'GET_ERRORS';
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const SET_CURRENT_USER = 'SET_CURRENT_USER';
+export const IDEA_LOADING = 'IDEA_LOADING';
+export const GET_IDEAS = 'GET_IDEAS';
+export const GET_IDEA = 'GET_IDEA';
+export const GET_AUTHOR = 'GET_AUTHOR';
+export const ADD_IDEA = 'ADD_IDEA';
+export const DELETE_IDEA = 'DELETE_IDEA';
