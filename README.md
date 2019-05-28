@@ -19,3 +19,13 @@ This application was created using the **MERN** stack:
 - **E**xpress.js
 - **R**eact.js
 - **N**ode.js
+
+## Build Instructions
+
+### Requirements
+1. Nodejs 10.x or later
+2. Npm 6.x or later
+
+### Instructions
+1. Clone the repository onto your machine `git clone https://github.com/sameertulshyan/appspiration.git`
+2. Change into the project directory `cd appspiration/`
