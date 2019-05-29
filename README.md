@@ -23,9 +23,34 @@ This application was created using the **MERN** stack:
 ## Build Instructions
 
 ### Requirements
-1. Nodejs 10.x or later
-2. Npm 6.x or later
+1. Nodejs 10.x
+2. Npm 6.x
 
 ### Instructions
-1. Clone the repository onto your machine `git clone https://github.com/sameertulshyan/appspiration.git`
-2. Change into the project directory `cd appspiration/`
+
+```bash
+# Clone the repository onto your machine
+git clone https://github.com/sameertulshyan/appspiration.git
+
+# Change into the project directory
+cd appspiration/
+
+# Install dependencies for server
+npm install
+
+# Install dependencies for client
+npm run client-install
+
+# Run the client & server with concurrently
+npm run dev
+
+# Run the Express server only
+npm run server
+
+# Run the React client only
+npm run client
+
+# Server runs on http://localhost:5000 and client on http://localhost:3000
+```
+
+Note:
