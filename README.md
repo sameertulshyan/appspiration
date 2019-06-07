@@ -53,4 +53,4 @@ npm run client
 # Server runs on http://localhost:5000 and client on http://localhost:3000
 ```
 
-Note:
+Note: in order to run this application locally, you will need to create a file named `keys.js` in the root level `config` folder.
