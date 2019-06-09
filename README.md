@@ -55,7 +55,7 @@ npm run client
 
 Note: in order to run this application locally, you will need to create a file named `keys.js` in the root level `config` folder.
 
-Example keys.js file:
+Example `keys.js` file:
 
 ```js
 module.exports = {
