@@ -121,7 +121,7 @@ class IdeaForm extends Component {
 						<form onSubmit={this.onSubmit}>
 							<div className="form-group">
 								<TextFieldGroup
-									placeholder="Title of your Idea"
+									placeholder="Give your idea a title"
 									name="title"
 									value={this.state.title}
 									onChange={this.onChange}
@@ -135,7 +135,7 @@ class IdeaForm extends Component {
 									error={errors.description}
 								/>
 								<TextAreaFieldGroup
-									placeholder="Which technologies might be used to implement your idea"
+									placeholder="Let everyone know which technologies might be needed to implement your idea"
 									name="technology"
 									value={this.state.technology}
 									onChange={this.onChange}
@@ -148,14 +148,14 @@ class IdeaForm extends Component {
 									onChange={this.onChange}
 									options={options}
 									error={errors.difficulty}
-									info="Estimate the level of experience needed to implement this idea"
+									info="Estimate the level of experience needed to implement your idea"
 								/>
 								<InputNumber
 									name="hoursNeeded"
 									value={this.state.hoursNeeded}
 									onChange={this.onChange}
 									error={errors.hoursNeeded}
-									info="Estimate the number of hours needed to implement this idea"
+									info="Estimate the number of hours needed to implement your idea"
 								/>
 							</div>
 							<button type="submit" className="btn btn-dark">
